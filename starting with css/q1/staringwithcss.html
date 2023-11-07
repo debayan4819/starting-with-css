@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body style="background-image: url('https://cdn.mos.cms.futurecdn.net/Vp9WvV7YKdH4k8sKRePcE8-970-80.jpg.webp'); color: rgb(243, 238, 235);">
+    <h1>CSS</h1>
+    <p>CSS can be added in 3 types<br> 
+        <ol>
+            <li>external css</li>
+            <li>internal css</li>
+            <li>inline css</li>
+        </ol>
+    if we arrange them in priority order then the order goes like this<br>
+        <b >inline>internal>external</b></p>
+    <div>
+        <h2 style="text-align: center; color: rgb(255, 0, 34);"><u>Inline CSS</u></h2>
+            <p>
+                Inline CSS is a way of applying CSS styling directly within HTML elements using the style attribute. For example, you can change the color and text alignment of a heading by adding the style attribute to the < h1> tag, like this:<br>
+<b style="color: rgb(225, 229, 8);">&lt;h1 style=“color:blue;text-align:center;”&gtThis is a heading&lt;/h1 &gt<br></b>
+                    
+                    Inline CSS is useful for quick and simple styling changes, but it has some disadvantages. For instance, inline CSS cannot be reused for other elements, and it cannot style pseudo-elements or pseudo-classes. Inline CSS also mixes presentation with content, which makes the HTML code less readable and maintainable. Therefore, inline CSS is not recommended for large or complex web pages.
+            </p>
+    </div>
+    <div>
+        <h2 style="text-align: center; color: rgb(255, 0, 34);"><u>Internal CSS</u></h2>
+        <P>
+            Internal CSS is a method of adding CSS rules directly to the head section of an HTML document. It involves using the &ltstyle&gt element to enclose the CSS code within the HTML document itself12. Internal CSS is used to provide a unique style for a single HTML document23. For example, you can change the background color and font size of the body element by adding the style attribute to the &ltstyle&gt element, like this:
+
+              <br><b style="color: rgb(251, 251, 10);">  &ltstyle> /* Internal CSS */ body { background-color: lightblue; font-size: 20px; } </style&gt</b>
+        </P>
+    </div>
+    <div>
+        <h2 style="color: rgb(225,0,34); text-align: center;"><u>External</u></h2>
+        <p style="color:rgb(243, 238, 235);">
+            External CSS is a way of applying CSS styling to multiple HTML pages using a single style sheet file. External CSS has a .css extension and contains CSS rules for different HTML elements. External CSS can be linked to an HTML document using the &ltlink> element inside the &lthead&gt section
+        </p>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+        }
+        .form__signup{
+            
+            color: #e22b2b;
+        } 
+        .form__signup input {
+            color: yellowgreen;
+            border: black;
+        }
+        button{
+            font-size: x-large;
+            color: #e22b2b;
+        }
+        .form__signup__gender{
+            color: black;
+            }
+        
+                                                               
+
+</style>
+</head>
+<body>
+    <div class="form">
+        <form action="" method="">
+            <div class="form__signup">
+                <fieldset>
+                    <legend style="text-align: right;color: brown; font-size: x-large;">sign up</legend>
+                    <div class="form__signup__firstname">
+                        <label for="first name"> first name
+                            <input type="text" name="first name" placeholder="amit" id="firstname" required min="3" max="15">
+                        </label><br>
+                    </div>
+                    <div class="form__signup__lastname">
+                        <label for="last name"> last name
+                            <input type="text" name="last name" placeholder="mahato" id="lastname" required min="3" max="15">
+                        </label><br>
+                    </div>
+                    <div class="form__signup__email">
+                        <label for="email">Email
+                            <input type="email" name="email" placeholder="amit@ndfj" id="email">
+                        </label><br>
+                    </div>
+                    <div class="form__signup__confirmpassword">
+                        <label for="confirm password">Confirm password
+                            <input type="password" name=" confirm password" placeholder="*******" id="confirm password" required min="8" max="8">
+                        </label><br>
+                    </div>
+                    <div class="form__signup__age">
+                        <label for="age">age
+                            <input type="number" name="age" placeholder="21" id="age" required min="1" max="150">
+                        </label>
+                        <br>
+                    </div>
+                    <div class="form__signup__gender">
+                        <label for="gender">Gender:<br>
+                            <input type="radio" name="male" id="male" value="male" >
+                            <label for="">male</label><br>
+                            <input type="radio" name="female" id="female" value="female" >
+                            <label for="">female</label><br>
+                            <input type="radio" name="others" id="others" value="others" >
+                            <label for="">others</label>
+                        </label>
+                        <br>
+                    </div>
+                    <div class="form__signup__terms">
+                        <label for="terms and conditions"> i agree to terms and conditions
+                            <input type="checkbox" name="terms and conditions" id="terms and conditions">
+                        </label>
+                        <br>
+                    </div>
+                    <div class="form__signup__submit">   
+                        <button>submit</button>
+                    </div>
+                </fieldset>
+            </div>
+            <h1 style="text-align: center;">OR</h1>
+            <div class="form__signin">
+                <fieldset>
+                    <legend style="color: brown;font-size: x-large;">sign in</legend>
+                    <div class="form__signin__email">
+                        <label for="email">Email:
+                            <input type="email" name="email" id="email" placeholder="bhd@jjd">
+                        </label>
+                    </div>
+                    <div class="form__signin__password">
+                        <label for="password"> password:
+                            <input type="password" name=" password" id="password" placeholder="******">
+                        </label>
+                    </div>
+                    <div class="form__signin__submit"></div>
+                        <label for="">
+                            <input type="submit">
+                        </label>
+                    </div>
+                </fieldset>
+            </div>    
+        </form>
+    </div>
+</body>
+</html>
